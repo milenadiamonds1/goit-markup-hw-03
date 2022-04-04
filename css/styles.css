@@ -355,3 +355,7 @@ display: flex;
 .footer-padding:not(:nth-child(3)){
     padding-bottom: 9px;
 }
+.footer-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
