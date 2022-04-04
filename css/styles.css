@@ -36,6 +36,9 @@ body {
     letter-spacing: 0.02em;
     border-bottom: solid 1px  #ECECEC;
 }
+img{
+    display: block;
+}
 .logo {
     color: var(--dark-color);
     text-decoration: none;
