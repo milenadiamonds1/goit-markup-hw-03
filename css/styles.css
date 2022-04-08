@@ -112,6 +112,7 @@ img{
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 
 .section-title{
@@ -127,6 +128,10 @@ img{
 .banner{
     background-color: var(--background-dark);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-right: auto;
+    padding-left: auto;
 
 }
 .banner-title{
@@ -194,6 +199,7 @@ img{
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
+    padding: 10px 32px;
 }
 .footer-content{
    background-color: var(--background-dark);
@@ -358,13 +364,16 @@ margin-right: auto;
 .buttons-item:last-child{
     margin-right: 0;
 }
-.footer-adress{
-    margin-top: 20px;
-}
 .footer-content{
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .footer-margin{
     margin-top: 9px;
+}
+.logo.footer{
+    padding: 0;
+}
+.address{
+    margin-top: 20px;
 }
